@@ -83,8 +83,9 @@ GEM
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.10)
-    figaro (1.1.1)
-      thor (~> 0.14)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     gibbon (2.2.1)
       faraday (>= 0.9.1)
       multi_json (>= 1.11.0)
@@ -243,7 +244,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   compass-rails (~> 2.0.alpha.0)
-  figaro
+  figaro (~> 0.7.0)
   gibbon
   google_drive
   high_voltage
