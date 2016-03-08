@@ -34,7 +34,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'activerecord-tableless'
-gem 'compass-rails','~>2.0.alpha.0'
+#gem 'compass-rails', '~> 2.0.4'
+#gem 'sprockets', '2.11.0'
 gem 'figaro', '~> 0.7.0'
 gem 'gibbon'
 gem 'google_drive'
