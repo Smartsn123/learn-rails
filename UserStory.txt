@@ -4,3 +4,8 @@ I want to see the owner's name
 I want to see the owner's birthdate
 I want to see how many days until the owner's next birthday
 In order to send birthday greetings
+
+*Contact Page*
+As a visitor to the website
+I want to fill out a form with my name, email address, and some text
+In order to send a message to the owner of the website
