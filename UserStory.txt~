@@ -9,3 +9,8 @@ In order to send birthday greetings
 As a visitor to the website
 I want to fill out a form with my name, email address, and some text
 In order to send a message to the owner of the website
+
+*Save Data to a Spreadsheet*
+As the owner of the website
+I want all contact requests saved in a spreadsheet
+In order to analyze the data

@@ -38,7 +38,7 @@ gem 'activerecord-tableless'
 #gem 'sprockets', '2.11.0'
 gem 'figaro', '~> 0.7.0'
 gem 'gibbon'
-gem 'google_drive'
+gem 'google_drive', '0.3.6'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'zurb-foundation'
@@ -57,4 +57,6 @@ group :development do
  gem 'better_errors'
  gem 'quiet_assets'
  gem 'rails_layout'
+ 
+ 
 end
