@@ -1,9 +1,19 @@
-class VisitorsController <ApplicationController
-
-        def new
-                @owner=Owner.new
-                #rendering is done automatically by the controller to page views/visitors new.html.erb
-                #flash.now[:notice] = 'welcome!'
-                #flash.now[:alert] = 'My birthday is soon !'
-       end
+class VisitorsController < ApplicationController
+def new
+@visitor = Visitor.new
+end
+def create
+@visitor = Visitor.new(secure_params)
+if @visitor.valid?
+@visitor.subscribe
+flash[:notice] = "Signed up #{@visitor.email}."
+redirect_to root_path
+else
+render :new
+end
+end
+private
+def secure_params
+params.require(:visitor).permit(:email)
+end
 end
