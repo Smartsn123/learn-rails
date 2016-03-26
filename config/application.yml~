@@ -7,5 +7,5 @@ GMAL_USERNAME: smartsn123
 GMAIL_PASSWORD: MishaCollins123
 MAILCHIMP_API_KEY: "d2fd2fdcd83646493ce2866af3283b5e-us13"
 MAILCHIMP_LIST_ID: "f96cb96bf4"
-DOMAIN_NAME: #
-OWNER_NAME: sunnyatiiitm@gmail.com
+DOMAIN_NAME: sunnylearnrails.herokuapp.com
+OWNER_NAME: smartsn123@gmail.com
