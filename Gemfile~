@@ -26,7 +26,7 @@ gem 'zurb-foundation'
 # gem 'unicorn'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'sprockets', '3.5.2'
+#gem 'sprockets', '3.5.2'
 
 
 

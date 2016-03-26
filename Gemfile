@@ -28,7 +28,9 @@ gem 'zurb-foundation'
 # gem 'capistrano-rails', group: :development
 #gem 'sprockets', '3.5.2'
 
-
+group :assets do
+  gem 'therubyracer'
+end
 
 group :development do
  gem 'spring'
